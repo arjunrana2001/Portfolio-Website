@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Hero Section -->
+<section id="home" class="vh-100 d-flex align-items-center">
+    <div class="container text-center">
+        <h1 class="display-1 mb-4">Your Name</h1>
+        <h2 class="h3 mb-4">Full Stack Developer</h2>
+        <p class="lead mb-4">Turning ideas into reality through code</p>
+        <a href="#contact" class="btn btn-primary btn-lg">Get in Touch</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">About Me</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="https://via.placeholder.com/400" alt="Profile" class="img-fluid rounded-circle mb-4">
+            </div>
+            <div class="col-md-6">
+                <p class="lead">Hello! I'm a passionate Full Stack Developer with expertise in building web applications.</p>
+                <p>I specialize in Python/Django for backend development and modern JavaScript frameworks for frontend development.</p>
+                <div class="mt-4">
+                    <a href="#" class="btn btn-outline-primary me-3">Download CV</a>
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Skills</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-center mb-4">Frontend</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fab fa-html5 me-2"></i>HTML5</li>
+                            <li class="mb-2"><i class="fab fa-css3-alt me-2"></i>CSS3</li>
+                            <li class="mb-2"><i class="fab fa-js me-2"></i>JavaScript</li>
+                            <li class="mb-2"><i class="fab fa-react me-2"></i>React</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-center mb-4">Backend</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fab fa-python me-2"></i>Python</li>
+                            <li class="mb-2"><i class="fas fa-server me-2"></i>Django</li>
+                            <li class="mb-2"><i class="fas fa-database me-2"></i>SQL</li>
+                            <li class="mb-2"><i class="fas fa-code me-2"></i>RESTful APIs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h3 class="card-title text-center mb-4">Tools</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fab fa-git-alt me-2"></i>Git</li>
+                            <li class="mb-2"><i class="fab fa-docker me-2"></i>Docker</li>
+                            <li class="mb-2"><i class="fab fa-aws me-2"></i>AWS</li>
+                            <li class="mb-2"><i class="fas fa-terminal me-2"></i>Command Line</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Projects</h2>
+        <div class="row g-4">
+            <!-- Project 1 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h3 class="card-title">Project 1</h3>
+                        <p class="card-text">A brief description of the project and the technologies used.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-sm btn-outline-primary">View Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-secondary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h3 class="card-title">Project 2</h3>
+                        <p class="card-text">A brief description of the project and the technologies used.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-sm btn-outline-primary">View Demo</a>
+                                <a href="#" class="btn btn-sm btn-outline-secondary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Get in Touch</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    /* Custom styles */
+    body {
+        position: relative;
+    }
+    
+    section {
+        padding-top: 60px;
+    }
+    
+    #home {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x1080') no-repeat center center;
+        background-size: cover;
+        color: white;
+    }
+    
+    .card {
+        transition: transform 0.3s ease;
+    }
+    
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .social-links a {
+        font-size: 1.5rem;
+        transition: color 0.3s ease;
+    }
+    
+    .social-links a:hover {
+        color: #0d6efd !important;
+    }
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+{% endblock %}
